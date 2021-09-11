@@ -7,20 +7,20 @@ except:
         # Set true if its VPS
         IS_VPS = False
 
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "f423cffca6b5b7247b31b5b0df61f48d"
+        API_ID = 1733305
+        BOT_TOKEN = "1596550006:AAGDoGzWBBZFenlj6MFpsMxHW2GH66B-rOs"
+        BASE_URL_OF_BOT = "https://t.me/torleechpro_bot"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [1001432480057, -1001390893086]
+        OWNER_ID = 1156597097
 
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = False
+        GD_INDEX_URL = "https://lkhitechmirror3.lkhitech8.workers.dev/2:"
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 10
@@ -39,7 +39,7 @@ except:
 
         # DB URI for access
         DATABASE_URL = (
-            "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+            "postgres://ovcehszovzyxxs:7e6c254184284cf3967273f231dd44d6d85e306b1c0f532cd265876b2934514d@ec2-3-225-204-194.compute-1.amazonaws.com:5432/d6gubd1a008nv6"
         )
 
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
@@ -60,7 +60,7 @@ except:
 
         # Will be enabled once its set
         # For vps change it to True if config loaded
-        RCLONE_ENABLED = False
+        RCLONE_ENABLED = True
 
         # If the user fails to select whether to use rclone or telegram to upload this will be the deafult.
         DEFAULT_TIMEOUT = "leech"
